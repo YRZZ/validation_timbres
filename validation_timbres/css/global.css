@@ -1,0 +1,40 @@
+/* css global */
+
+body {
+    margin: 0;
+    font-family: 'Texturina', serif;
+}
+
+.flex {
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+main {
+    background: url(../img/old_sheet.jpg);
+    min-height: 700px;
+}
+
+/* intro  de chaque page*/
+
+.presentation {
+    padding: 20px;
+    color: goldenrod;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+h1 {
+    text-align: center;
+}
+
+.presentation p {
+    text-align: center;
+    padding: 10px 10px;
+}

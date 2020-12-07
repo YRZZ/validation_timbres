@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/global.css" >
+    <link rel="stylesheet" type="text/css" href="css/header.css" >
+    <link rel="stylesheet" type="text/css" href="css/footer.css" >
+    <link rel="stylesheet" type="text/css" href="css/accueil.css" >
+    <link rel="stylesheet" type="text/css" href="css/produits.css" >
+    <link rel="stylesheet" type="text/css" href="css/contact.css" >
+    <link rel="icon" type="image/png" href="img/logo.png"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Texturina:wght@200&display=swap" rel="stylesheet"> 
+    <title>Superstamps</title>
+</head>
+<body>
+    <header>
+        <div class="logo flex">
+            <a href="index.html"><img src="img/logo.png" alt="logo timbre"></a>
+            <a href="index.html"><h1 id="mainTitle">Superstamps</h1></a>
+        </div>
+        <div class="nav">
+            <nav>
+                <ul class="flex">
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="produits.html">Produits</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+             </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="presentation">
+            <h1>Nous contacter</h1>
+            <p>Veuillez remplir le formulaire de contact pour échanger avec nous.</p>
+        </div>
+        <form action="valid.html" method="">
+            <fieldset>
+                <legend>Vos coordonnées :</legend>
+                <div class="nom flex">
+                    <div>
+                        <label for="lastname">Nom :</label>
+                        <input type="text" id="lastname" name="lastname" placeholder="Dupont">
+                    </div>
+                    <div>
+                        <label for="firstname">Prénom :</label>
+                        <input type="text" id="firstname" name="firstname" placeholder="Camille">
+                    </div>
+                    <div>
+                        <label>Date de naissance :</label>
+                        <input type="date">
+                    </div>
+                </div>
+                <div>
+                    <label for="mail">e-mail :</label>
+                    <input type="email" id="mail" name="user_mail" placeholder="camille.dupont@gmail.com"><br>
+                </div>
+                <div><p>Avez-vous déjà commandé sur notre site ?</p></div>
+                <div>
+                    <input type="radio" id="oui" name="order" value="oui" checked>
+                    <label for="oui">Oui</label>
+                </div>
+                <div>
+                    <input type="radio" id="non" name="order" value="non">
+                    <label for="non">Non</label>
+                </div>
+                    
+            </fieldset>
+            <fieldset>
+                <legend>Votre message :</legend>
+                <textarea id="message" name="user_message" cols="80" rows="10" placeholder="Votre texte"></textarea>
+            </fieldset>
+            <div class="button">
+                <button type="submit" onclick=confirm>Envoyer</button>
+            </div>
+        </form>
+    </main>
+    <footer>
+        <p>© 2020 Yoann Ruzza</p>
+    </footer>
+</body>
+</html>

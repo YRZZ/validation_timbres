@@ -1,0 +1,12 @@
+/* footer */
+
+footer {
+    background-color: black;
+    color: goldenrod;
+}
+
+footer p {
+    margin: 0px;
+    padding: 10px;
+    text-align: center;
+}

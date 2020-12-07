@@ -1,0 +1,50 @@
+/* header */
+
+header {    
+    background: url(../img/office.jpg) 100% fixed;
+    border: 1px solid goldenrod;
+}
+
+#mainTitle {
+    font-size: 2.5rem;
+    color: goldenrod;
+    text-shadow: 10px 2px 10px black;
+}
+
+/* logo */
+
+.logo {
+    justify-content: flex-start;
+    padding: 50px;
+
+}
+
+.logo img {
+    width: 50px;
+    margin: 20px;
+    background-color: goldenrod;
+}
+
+/* menu */
+
+.nav {
+    height: 70px;
+}
+
+nav ul {
+    list-style: none;
+    justify-content: space-evenly;
+}
+
+nav a {
+    border: 2px solid goldenrod;
+    padding: 10px;
+    border-radius: 50%;
+    color: goldenrod;
+    background-color: rgb(0, 0, 0, 0.5);
+    transition: 800ms;
+}
+
+nav a:hover {
+    background: black;
+}

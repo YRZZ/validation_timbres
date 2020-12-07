@@ -1,0 +1,31 @@
+/* produits */
+
+/* timbres */
+
+.collection {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 30px;
+}
+
+.collection img {
+    width: 150px;
+    transition: 500ms;
+}
+
+.collection img:hover {
+    transform: scale(1.2);
+}
+
+figure {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 5%;
+}
+
+figcaption {
+    padding: 15px;
+    color: goldenrod;
+}
